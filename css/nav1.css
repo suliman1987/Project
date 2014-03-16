@@ -1,0 +1,65 @@
+charset "utf-8";
+#nav1 {
+	margin: 0;
+	padding: 0;
+		
+
+}
+#nav1 ul
+{
+	margin:0;
+	padding:0;
+	line-height:30px;
+	
+
+	}
+#nav1 li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	background-color: #C00;
+	}
+#nav1 ul li a
+{
+	text-align:center;
+	font-family@:"Comic Sans MS", cursive;
+	text-decoration:none;
+	height:30px;
+	width:144px;
+	display:block;
+	color:#000;
+	border:1px solid#FF0 ;
+	
+	}
+	
+#nav1 ul ul
+{
+	position:absolute;
+	visibility:hidden;
+	top:32px;
+	
+	}	
+	
+#nav1 ul li:hover ul
+{
+	visibility:visible;
+	
+	
+	
+	}	
+	
+#nav1 li:hover
+{
+	background:#C00;
+	
+	}	
+#nav1 ul li:hover ul li a:hover
+{
+ background:#CCC;
+ color:#FFF;
+	
+	
+	}
